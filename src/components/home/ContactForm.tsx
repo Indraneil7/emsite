@@ -79,7 +79,7 @@ const ContactForm = () => {
                   </div>
                   <h3 className="mt-3 text-xl font-medium text-gray-900">Thank you!</h3>
                   <p className="mt-1 text-base text-gray-600">
-                    Your message has been received. We'll be in touch shortly.
+                    Your message has been received. We&apos;ll be in touch shortly.
                   </p>
                 </motion.div>
               ) : (

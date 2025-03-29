@@ -126,7 +126,7 @@ const Contact = () => {
               
               <div>
                 <label htmlFor="interest" className="block text-sm font-medium text-gray-700">
-                  I'm interested in:
+                  I&apos;m interested in:
                 </label>
                 <select
                   id="interest"

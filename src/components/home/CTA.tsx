@@ -52,7 +52,7 @@ const CTA = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                Join the growing network of businesses that are leveraging EnergyMAESTRO's charging solutions to attract customers, reduce carbon footprint, and stay ahead of the competition.
+                Join the growing network of businesses that are leveraging EnergyMAESTRO&apos;s charging solutions to attract customers, reduce carbon footprint, and stay ahead of the competition.
               </motion.p>
               <motion.div 
                 className="mt-6 flex flex-col items-center justify-center space-y-3 sm:flex-row sm:space-y-0 sm:space-x-3"

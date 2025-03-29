@@ -3,70 +3,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 
 const Footer = () => {
-  const footerLinks = [
-    {
-      title: 'Products',
-      links: [
-        { name: 'Power Up 32', href: '/products/power-up-32' },
-        { name: 'Software', href: '/software' },
-        { name: 'Installation', href: '/installation' },
-        { name: 'Support', href: '/support' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { name: 'About Us', href: '/about' },
-        { name: 'Careers', href: '/careers' },
-        { name: 'News', href: '/news' },
-        { name: 'Partners', href: '/partners' },
-      ],
-    },
-    {
-      title: 'Resources',
-      links: [
-        { name: 'Knowledge Base', href: '/resources/knowledge-base' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Documentation', href: '/docs' },
-        { name: 'Videos', href: '/videos' },
-      ],
-    },
-    {
-      title: 'Legal',
-      links: [
-        { name: 'Privacy Policy', href: '/privacy' },
-        { name: 'Terms of Service', href: '/terms' },
-        { name: 'Warranty', href: '/warranty' },
-      ],
-    },
-  ];
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: 'spring',
-        stiffness: 100,
-        damping: 10,
-      },
-    },
-  };
-
   return (
     <footer className="bg-[#333] text-white border-t border-gray-700">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

@@ -84,7 +84,7 @@ const WhyUs = () => {
             Why Choose EnergyMAESTRO
           </h2>
           <p className="mt-2 text-base text-gray-600 max-w-2xl mx-auto">
-            We've built our reputation on three core principles that ensure you receive the best EV charging experience possible.
+            We&apos;ve built our reputation on three core principles that ensure you receive the best EV charging experience possible.
           </p>
         </motion.div>
 
